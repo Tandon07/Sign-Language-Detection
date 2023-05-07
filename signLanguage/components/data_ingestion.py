@@ -1,4 +1,3 @@
-print("yahatak")
 import os
 import sys
 from six.moves import urllib
@@ -7,6 +6,7 @@ from signLanguage.logger import logging
 from signLanguage.exception import SignException
 from signLanguage.entity.config_entity import DataIngestionConfig
 from signLanguage.entity.artifacts_entity import DataIngestionArtifact
+
 
 
 class DataIngestion:
@@ -37,7 +37,8 @@ class DataIngestion:
         except Exception as e:
             raise SignException(e, sys)
         
-        
+
+    
     def extract_zip_file(self,zip_file_path: str)-> str:
         """
         zip_file_path: str
@@ -75,4 +76,4 @@ class DataIngestion:
             return data_ingestion_artifact
 
         except Exception as e:
-            raise SignException(e, sys)    
+            raise SignException(e, sys)

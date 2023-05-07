@@ -3,7 +3,6 @@ import sys
 import yaml
 import base64
 
-
 from signLanguage.exception import SignException
 from signLanguage.logger import logging
 
