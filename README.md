@@ -2,5 +2,9 @@
 
 
 
-https://github.com/Tandon07/Sign-Language-Detection/assets/109807291/3571b576-6b22-450f-b8dc-415999a6ce0a
+
+
+https://github.com/Tandon07/Sign-Language-Detection/assets/109807291/961cbc9c-7d36-4162-84c9-4f3771df05c0
+
+
 
